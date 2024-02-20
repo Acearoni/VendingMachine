@@ -1,0 +1,73 @@
+/* VendorStyle.css */
+
+.vending-machine {
+    text-align: center;
+    /* Center align the content */
+    display: flex;
+    /* Use flexbox layout */
+    flex-direction: column;
+    /* Arrange children vertically */
+    justify-content: center;
+    /* Center align vertically */
+    align-items: center;
+    /* Center align horizontally */
+    height: 100vh;
+    /* Full height of the viewport */
+}
+
+/* Styles for buttons container */
+.buttons {
+    display: grid;
+    /* Use grid layout for buttons */
+    grid-template-columns: repeat(3, 1fr);
+    /* Three columns with equal width */
+    justify-content: center;
+    /* Center align buttons horizontally */
+    gap: 10px;
+    /* Add some space between buttons */
+}
+
+/* Styles for individual buttons */
+button {
+    width: 100px;
+    /* Fixed width for buttons */
+    height: 50px;
+    /* Fixed height for buttons */
+    padding: 10px;
+    /* Padding for button content */
+    border: none;
+    border-radius: 5px;
+    background-color: #ccc;
+    /* Default button color */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    /* Smooth transition for background color */
+}
+
+/* Darken button color on hover */
+button:hover {
+    background-color: #999;
+}
+
+/* Darken button color on click */
+button:active {
+    background-color: #666;
+}
+
+.add-snack-css {
+    margin-top: 20px;
+}
+
+.add-snack-css a {
+    color: #007bff;
+    /* Change link color to blue */
+    text-decoration: none;
+    /* Remove underline */
+    font-size: 16px;
+}
+
+.add-snack-css a:hover {
+    color: #0056b3;
+    /* Darker blue on hover */
+}
